@@ -1,0 +1,49 @@
+﻿body {
+    background-color: grey;
+    font-family: "Trebuchet MS";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+.navbar .container .arama {
+    width: 750px;
+}
+
+.form {
+    margin: 100px 150px 100px 80px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    width: 600px;
+    height: 1100px;
+    border: solid 2px;
+    border-color: dimgray;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.formh2 {
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.formtitle {
+    margin: 0;
+    margin-left: 20px;
+    1 padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.form-select {
+    margin-bottom: 12px;
