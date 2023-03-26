@@ -1,12 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="E_Ticaret.Register" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="accordion" style="width: 700px;" id="accordionExample">
+
+
+    <div class="brosur" >
+        <img src="\NewFolder1\register1.jpg"   >
+    </div>
+    
+    <div class="accordion" style="margin: 120px 200px 100px 200px; width: 650px;" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                    Registration Information
                 </button>
+                
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
@@ -14,8 +21,8 @@
                         <h2 class="formh2">
                             <span class="formtitle">Registration Information
                             </span>
-                        </h2>
-                        <hr size="15" color="#0000F8">
+                        </h2> 
+                        <hr size="15" color="#0000F8">  
 
                         <form>
                             <p>
@@ -102,17 +109,19 @@
 
 
 
-        <form>
+        
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                        Address Information
                     </button>
                 </h2>
 
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <div class="form" style="margin: auto;">
+                       
+                        <div class="form1" style="margin: auto;">
+
                             <h2 class="formh2">
                                 <span class="formtitle">Address Information
                                 </span>
@@ -181,10 +190,11 @@
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                         </div>
+                            
                     </div>
                 </div>
             </div>
-        </form>
+        
 
 
         <div class="accordion-item">
