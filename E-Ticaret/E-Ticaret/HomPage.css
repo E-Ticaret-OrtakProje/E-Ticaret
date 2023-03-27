@@ -1,0 +1,35 @@
+﻿body {
+    font-family: "Trebuchet MS";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar .container .arama {
+    width: 750px;
+}
+
+.row {
+    margin: auto;
+    width: 1300px;
+}
+
+.col {
+    padding: 0px;
+    height: 220px;
+    width: 216px;
+}
+
+.img-thumbnail {
+    margin-top: 5px;
+}
+
+.a {
+    padding: 0px;
+    border-style: solid;
+    border-color: red;
+    border: 1px;
+}
