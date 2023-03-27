@@ -11,7 +11,7 @@ namespace E_Ticaret
 {
 
 
-    public partial class SigngIn
+    public partial class SıgnIn
     {
     }
 }
