@@ -70,7 +70,7 @@
     <Content Include="HomPage.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="SıgnIn.aspx" />
+    <Content Include="SignIn.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,12 +96,12 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SıgnIn.aspx.cs">
-      <DependentUpon>SıgnIn.aspx</DependentUpon>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SıgnIn.aspx.designer.cs">
-      <DependentUpon>SıgnIn.aspx</DependentUpon>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

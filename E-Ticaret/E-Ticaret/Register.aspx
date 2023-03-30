@@ -32,7 +32,7 @@
 
 
 
-                            <div class="form-floating ">
+                            <div class="form-floating mb-3">
 
                                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                                     <option selected>Select Registration Type </option>
@@ -42,21 +42,22 @@
                                 </select>
                                 <label for="floatingSelect">Registration Type</label>
                             </div>
+
                             <p></p>
-                            <h5>Contact Information
+                            <h5 style="margin-top: 40px;">Contact Information
                             </h5>
-                            </p>
+                            
                 
-                <div class="row ">
+                <div class="row " style="margin-bottom:10px;">
                     <div class="col ">
-                        <div class="form-floating form-floating-sm mb-3 ">
+                        <div class="form-floating form-floating-sm mb-1 ">
 
                             <input type="text" class="form-control form-control-sm" placeholder="First name" aria-label="First name">
                             <label for="floatingInput">First name</label>
                         </div>
                     </div>
                     <div class="col ">
-                        <div class="form-floating mb-3">
+                        <div class="form-floating mb-1">
                             <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                             <label for="floatingInput">Last name</label>
                         </div>
@@ -139,7 +140,7 @@
                                 <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                                 <label class="form-check-label" for="flexSwitchCheckDefault">Federal Government</label>
                             </div>
-                            <div class="form-floating form-floating-sm mb-3 mt-3 ">
+                            <div class="form-floating form-floating-sm mb-4 mt-3 ">
 
                                 <input type="text" class="form-control form-control-sm" placeholder="First name" aria-label="First name">
                                 <label for="floatingInput">Business name</label>

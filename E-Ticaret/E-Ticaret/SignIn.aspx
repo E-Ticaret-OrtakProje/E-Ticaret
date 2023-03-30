@@ -6,17 +6,10 @@
 
 
 
-
-    <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      
-    <div class="dene">
-        <h5>Sign In
-        </h5>
-        </p>
-
-         <hr size="15" color="#0000F8">
+    <div class="sign">
+        <h5 style="font-weight: 600;" >Sign In</h5>
+        </par>
+        <hr size="15" color="#0000F8">
 
         <form>
 
@@ -25,45 +18,39 @@
                 <label for="floatingInput">User ID</label>
             </div>
 
-            <div class="form-floating mb-3 ">
+            <div class="form-floating  ">
                 <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                 <label for="floatingPassword">Password</label>
-
-            </div>
-        </form>
-    </div>
-    </div>
-    <div class="col">
-     <div class="d-flex" style="height: 200px;">
-  <div class="vr"></div>
-</div>
-    </div>
-    <div class="col">
-         <div class="dene">
-        <h5>Sign In
-        </h5>
-        </p>
-
-         <hr size="15" color="#0000F8">
-
-        <form>
-
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">User ID</label>
             </div>
 
-           
+            <a href="#" class="forgotpassword">Forgot Password?</a>
+
+            <div class="d-grid gap-2">
+                <button class="btn  btn-bd-primary" type="button">Sign In </button>
+            </div>
+
         </form>
     </div>
+
+
+    <div class="sign1">
+
+        <h5 style="font-weight:600;">Register For TuralıGroup</h5>
+        </par>
+
+        <div class="d-grid gap-2 mb-4">
+            <button class="btn  btn-bd-primary1" type="button">Sign In </button>
+        </div>
+
+        <p>Benefits of registering:</p>
+
+       
+            <li>Take advantage of faster ordering options</li>
+            <li>Save favorite items to personal lists</li>
+            <li>View your customized account information</li>
+            <li>Track your order status and order history</li>
+        
     </div>
-  </div>
-</div>
-
-
-
-
- 
 
 
 </asp:Content>
